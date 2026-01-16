@@ -7,7 +7,6 @@ import {
   AlertCircle,
   Globe,
   Clock,
-  Info
 } from 'lucide-react';
 import { apiClient } from '../services/apiClient';
 import { useSession, useUserData } from '../contexts/SessionContext';
