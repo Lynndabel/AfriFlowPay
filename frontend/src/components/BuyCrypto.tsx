@@ -2,16 +2,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ArrowLeft,
-  CreditCard,
   Loader,
   CheckCircle,
   AlertCircle,
   Globe,
-  DollarSign,
-  Coins,
   Clock,
-  Shield,
-  TrendingUp,
   Smartphone,
   Building,
   Info
