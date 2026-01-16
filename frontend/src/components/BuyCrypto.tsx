@@ -1,13 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  ArrowLeft,
-  Loader,
-  CheckCircle,
-  AlertCircle,
-  Globe,
-  Clock,
-} from 'lucide-react';
+import { ArrowLeft, Loader, CheckCircle, AlertCircle, Globe, Clock } from 'lucide-react';
 import { apiClient } from '../services/apiClient';
 import { useSession, useUserData } from '../contexts/SessionContext';
 import { Country, PaymentMethod, CryptoPurchaseResult } from '../types/api';
