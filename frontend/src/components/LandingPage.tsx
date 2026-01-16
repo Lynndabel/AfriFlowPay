@@ -29,7 +29,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     {
       icon: <Zap className="w-6 h-6" />,
       title: "Zero Fees",
-      description: "Gasless crypto payments with no hidden charges"
+      description: "Gasless crypto payments with no xtra or hidden charges"
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
