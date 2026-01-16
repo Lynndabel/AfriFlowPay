@@ -188,7 +188,7 @@ const PaymentAuthModal: React.FC<PaymentAuthModalProps> = ({ isOpen, nonce, onCl
                 </div>
                 {!isLogin && (
                   <p className="text-xs text-gray-500 mt-1">
-                    Password must be at least 6 characters long
+                    Password must be at least 6 characters long and contain special character
                   </p>
                 )}
               </div>
