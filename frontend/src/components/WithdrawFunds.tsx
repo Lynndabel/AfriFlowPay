@@ -162,7 +162,7 @@ const WithdrawFunds: React.FC<WithdrawFundsProps> = ({ onBack, onWithdrawalCompl
         destinationAddress: destinationAddress.trim(),
       };
       
-      console.log('🔄 Sending withdrawal request:', withdrawalRequest);
+      console.log('Sending withdrawal request:', withdrawalRequest);
       const response = await apiClient.requestWithdrawal(withdrawalRequest);
 
       console.log('Withdrawal response:', response);
