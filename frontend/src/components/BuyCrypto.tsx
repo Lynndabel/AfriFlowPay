@@ -7,8 +7,6 @@ import {
   AlertCircle,
   Globe,
   Clock,
-  Smartphone,
-  Building,
   Info
 } from 'lucide-react';
 import { apiClient } from '../services/apiClient';
