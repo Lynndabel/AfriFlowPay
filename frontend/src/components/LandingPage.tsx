@@ -17,7 +17,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
   };
 
   const handleAuthSuccess = (accountData: any) => {
-    // Authentication successful - user state will be updated in SessionContext
+    // Authentication successful - user state will be updated in SessionContext always
     // Navigation will happen automatically via useEffect in App.tsx
     console.log('Authentication successful for:', selectedAccountType);
     // Mark that we just authenticated via the regular landing auth flow
