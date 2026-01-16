@@ -43,7 +43,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     },
     {
       icon: <Globe className="w-6 h-6" />,
-      title: "For Africa",
+      title: "For Africans",
       description: "Designed specifically for African markets"
     }
   ];
