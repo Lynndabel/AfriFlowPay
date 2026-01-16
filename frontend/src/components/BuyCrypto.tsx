@@ -128,13 +128,13 @@ const BuyCrypto: React.FC<BuyCryptoProps> = ({ onBack, onPurchaseComplete }) => 
         'GHS': 12.15
       },
       'USDC': {
-        'NGN': 1580.50,
+        'NGN': 1780.50,
         'KES': 129.25,
         'ZAR': 18.85,
         'GHS': 14.85
       },
       'USDT': {
-        'NGN': 1579.75,
+        'NGN': 1779.75,
         'KES': 129.15,
         'ZAR': 18.83,
         'GHS': 14.82
